@@ -12,9 +12,10 @@ public class CarroTest01 {
         carro2.nome ="Camaro";
         carro2.modelo = "Ferrari";
         carro2.ano = 2011;
+        carro1 = carro2;
 
 
-
+        System.out.println("----------------------------------------------------------");
         System.out.println("\n Carro 1");
         System.out.println(carro1.nome + " " + carro1.modelo + " " + carro1.ano + "\n");
 
@@ -22,6 +23,8 @@ public class CarroTest01 {
 
         System.out.println("\n Carro 2");
         System.out.println(carro2.nome + " " + carro2.modelo + " " + carro2.ano);
+
+        System.out.println("----------------------------------------------------------");
 
 
     }
